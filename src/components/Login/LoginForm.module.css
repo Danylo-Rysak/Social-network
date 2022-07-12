@@ -1,0 +1,105 @@
+.login {
+    height: 272px;
+    width: 333px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.login__header {
+    height: 66px;
+    background-color: #483D8B;
+    text-align: center;
+    position: relative;
+    border: 1px solid #483D8B;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.header__title {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.login__body {
+    background-color: white;
+    height: 143px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.body__input {
+    margin-top: 1px;
+    width: 294px;
+    height: 51px;
+    border: 1px solid #eaeaea;
+    border-top: none;
+    box-sizing: border-box;
+    text-indent: 30px;
+}
+
+.login_captcha {
+    margin-top: -40px;
+    display: grid;
+    grid-template-areas: "c" "f";
+    background-color: white;
+}
+
+.captcha {
+    margin-top: 20px;
+    grid-area: c;
+    justify-self: center;
+}
+
+.captcha__input {
+    grid-area: f;
+    justify-self: center;
+}
+
+.form__error {
+    color: #ff4e3f;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.login__footer {
+    height: 64px;
+    background-color: white;
+    border: 1px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer__checkbox {
+    float: left;
+    margin-left: 17.5px;
+    margin-top: 20px;
+}
+
+.footer__button {
+    cursor: pointer;
+}
+
+.footer__submit {
+    margin-top: 10px;
+    background-color: #1dabb8;
+    height: 42px;
+    width: 73px;
+    border: none;
+    color: white;
+    border-radius: 0.25em;
+    font-weight: bold;
+    float: right;
+    margin-right: 18px;
+    cursor: pointer;
+}
+

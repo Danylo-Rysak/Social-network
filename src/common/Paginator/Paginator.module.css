@@ -1,0 +1,32 @@
+.paginator__wrapper {
+    display: grid;
+    grid-template-areas: "p";
+}
+
+.paginator {
+    margin-top: 26px;
+    grid-area: p;
+    justify-self: center;
+    display: flex;
+}
+
+.paginator__button {
+    margin-top: -6.5px;
+}
+
+.button {
+    background-color: #394264;
+    border: none;
+    cursor: pointer;
+}
+
+.page__number {
+    padding: 2px;
+    border: 1px solid cornflowerblue;
+    color: yellow;
+    cursor: pointer;
+}
+
+.page__number.selected__page {
+    color: aqua;
+}

@@ -1,0 +1,10 @@
+.preloader__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader {
+    display: flex;
+    align-items: center;
+}

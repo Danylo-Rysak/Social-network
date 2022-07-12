@@ -1,0 +1,8 @@
+.app {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.app__content {
+    display: flex;
+}
